@@ -3,14 +3,14 @@
 This project is a simple Retrieval-Augmented Generation based Q&A application specially designed for Potterheads. The project has uses Pathway LLM-app framework.
 Pathway framework is a Python data processing framework for analytics and AI pipelines over data streams. It’s the ideal solution for real-time processing use cases like streaming ETL or RAG pipelines for unstructured data and LLM applications. 
 ## About the Project 
-This LLM App has a  `/data` storage in which all 7 Harry Potter books are present which provide context to the LLM for giving accurate Harry-Potter based answers.
+This LLM App has a  `/data` storage in which all 8 Harry Potter movie scripts are present which provide context to the LLM for giving accurate Harry-Potter based answers.
 ### Key Features : 
 - **Harry Potter Knowledge Base**: Understands and responds to questions related to characters, events, and lore from all seven Harry Potter books.
 - **RAG-Based Architecture**: Combines retrieval and generation capabilities to ensure answers are contextually relevant.
 - **Contextual Conversations**: Provides intelligent and fact-based responses using LLM capabilities and document search.
 - **Modular Design**: Separate modules for retrieval, generation, and response synthesis.
 # Demo Usage
-Video of the demo use of this application is uploaded in the repo. Also, link of the demo is : https://drive.google.com/file/d/1jZipip89cqE0kou2n1AmEZNcdGGGvEmY/view?usp=sharing
+Video of the demo use of this application is uploaded in the repo. Also, link of the demo is : https://drive.google.com/file/d/1VBvAZVhZXk-8ylrAAndh5CloQcqFUM6j/view?usp=sharing
 # Installation
 To set-up HogwartsBot, follow the steps below:
 
@@ -24,7 +24,11 @@ To set-up HogwartsBot, follow the steps below:
     `docker build -t hbot .`\
     `docker run -p 8000:8000 hbot`
     
-    Running the docker container may take upto 6-7 minutes.
+    Running the docker container may take upto 6-7 minutes. You can start asking questions after this shows:
+
+    `pathway_engine.connectors.monitoring INFO PythonReader-4: 1 entries (9 minibatch(es)) have been sent to the engine`\
+    `2024-09-30 22:22:43 pathway_engine.connectors.monitoring INFO PythonReader-4: 0 entries (3 minibatch(es)) have been sent to the engine`
+  
 - Use either Postman or ThunderClient API service to give prompt requests:
  
     URL : `http://localhost:8000/v1/pw_ai_answer`
