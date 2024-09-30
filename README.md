@@ -11,6 +11,12 @@ This LLM App has a  `/data` storage in which all 8 Harry Potter movie scripts ar
 - **Modular Design**: Separate modules for retrieval, generation, and response synthesis.
 # Demo Usage
 Video of the demo use of this application is uploaded in the repo. Also, link of the demo is : https://drive.google.com/file/d/1VBvAZVhZXk-8ylrAAndh5CloQcqFUM6j/view?usp=sharing
+
+- The application best forms when asked questions in the following manner:
+     - What is Quidditch
+     - Ron loved Hermoine?
+     - Head of Ravenclaw and many more such awesome trivia from the movie series.
+     - 
 # Installation
 To set-up HogwartsBot, follow the steps below:
 
