@@ -10,7 +10,7 @@ This LLM App has a  `/data` storage in which all 8 Harry Potter movie scripts ar
 - **Contextual Conversations**: Provides intelligent and fact-based responses using LLM capabilities and document search.
 - **Modular Design**: Separate modules for retrieval, generation, and response synthesis.
 # Demo Usage
-Video of the demo use of this application is uploaded in the repo. Also, link of the demo is : https://drive.google.com/file/d/1jZipip89cqE0kou2n1AmEZNcdGGGvEmY/view?usp=sharing
+Video of the demo use of this application is uploaded in the repo. Also, link of the demo is : https://drive.google.com/file/d/1VBvAZVhZXk-8ylrAAndh5CloQcqFUM6j/view?usp=sharing
 # Installation
 To set-up HogwartsBot, follow the steps below:
 
