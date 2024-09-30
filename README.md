@@ -14,6 +14,8 @@ Video of the demo use of this application is uploaded in the repo. Also, link of
 # Installation
 To set-up HogwartsBot, follow the steps below:
 
+- You can use your own API key. Here Gemini is used. For using your API key, just change the GEMINI_API_KEY in `.env` file. 
+
 - Clone the repository in your **VSCode terminal**:
 
     `git clone https://github.com/KaranS2111/HogwartsBot_RAG_LLM`\
