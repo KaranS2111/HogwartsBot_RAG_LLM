@@ -10,20 +10,21 @@ This LLM App has a  `/data` storage in which all 7 Harry Potter books are presen
 - **Contextual Conversations**: Provides intelligent and fact-based responses using LLM capabilities and document search.
 - **Modular Design**: Separate modules for retrieval, generation, and response synthesis.
 # Demo Usage
-Here's the link to the demo use of this application.
+Video of the demo use of this application is uploaded in the repo. Also, link of the demo is : https://drive.google.com/file/d/1jZipip89cqE0kou2n1AmEZNcdGGGvEmY/view?usp=sharing
 # Installation
 To set-up HogwartsBot, follow the steps below:
 
 - Clone the repository in your **VSCode terminal**:
 
-    `git clone https://github.com/KaranS2111/HogwartsBot_RAG_LLM`
+    `git clone https://github.com/KaranS2111/HogwartsBot_RAG_LLM`\
+    `cd HogwartsBot_RAG_LLM`
 
 - Run the application using **Docker**:
 
-    `docker build -t hbot`\
+    `docker build -t hbot .`\
     `docker run -p 8000:8000 hbot`
     
-    Running the docker container may take upto 3-4 minutes.
+    Running the docker container may take upto 6-7 minutes.
 - Use either Postman or ThunderClient API service to give prompt requests:
  
     URL : `http://localhost:8000/v1/pw_ai_answer`
