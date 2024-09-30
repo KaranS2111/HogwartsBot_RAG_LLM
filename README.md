@@ -16,7 +16,7 @@ To set-up HogwartsBot, follow the steps below:
 
 - Clone the repository in your **VSCode terminal**:
 
-    `git clone https://github.com/KaranS2111/HogwartsBot_RAG_LLM`
+    `git clone https://github.com/KaranS2111/HogwartsBot_RAG_LLM`\
     `cd HogwartsBot_RAG_LLM`
 
 - Run the application using **Docker**:
