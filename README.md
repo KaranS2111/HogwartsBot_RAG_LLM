@@ -15,7 +15,8 @@ Video of the demo use of this application is uploaded in the repo. Also, link of
 - The application best forms when asked questions in the following manner:
      - What is Quidditch
      - Ron loved Hermoine?
-     - Head of Ravenclaw and many more such awesome trivia from the movie series.
+     - Head of Ravenclaw
+  and many more such awesome trivia from the movie series.
        
 # Installation
 To set-up HogwartsBot, follow the steps below:
