@@ -24,7 +24,7 @@ To set-up HogwartsBot, follow the steps below:
     `docker build -t hbot .`\
     `docker run -p 8000:8000 hbot`
     
-    Running the docker container may take upto 3-4 minutes.
+    Running the docker container may take upto 6-7 minutes.
 - Use either Postman or ThunderClient API service to give prompt requests:
  
     URL : `http://localhost:8000/v1/pw_ai_answer`
