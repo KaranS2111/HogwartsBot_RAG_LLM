@@ -3,7 +3,7 @@
 This project is a simple Retrieval-Augmented Generation based Q&A application specially designed for Potterheads. The project has uses Pathway LLM-app framework.
 Pathway framework is a Python data processing framework for analytics and AI pipelines over data streams. It’s the ideal solution for real-time processing use cases like streaming ETL or RAG pipelines for unstructured data and LLM applications. 
 ## About the Project 
-This LLM App has a  `/data` storage in which all 7 Harry Potter books are present which provide context to the LLM for giving accurate Harry-Potter based answers.
+This LLM App has a  `/data` storage in which all 8 Harry Potter movie scripts are present which provide context to the LLM for giving accurate Harry-Potter based answers.
 ### Key Features : 
 - **Harry Potter Knowledge Base**: Understands and responds to questions related to characters, events, and lore from all seven Harry Potter books.
 - **RAG-Based Architecture**: Combines retrieval and generation capabilities to ensure answers are contextually relevant.
